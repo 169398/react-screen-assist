@@ -1,0 +1,33 @@
+{
+  "name": "react-screen-assist",
+  "version": "1.0.0",
+  "description": "A React package for screen reader support and accessibility enhancements",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "typescript": "^5.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/169398/react-screen-assist.git"
+  },
+  "keywords": [
+    "react",
+    "accessibility",
+    "screen reader",
+    "assistive technology"
+  ],
+  "author": "Idris Kulubi",
+  "license": "MIT"
+}
